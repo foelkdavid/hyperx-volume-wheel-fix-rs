@@ -16,10 +16,13 @@ If you use wireplumber, just autostart this script with your System and you are 
 Otherwise just adjust the command inside the script.
 
 ## Will this work for other headsets?
-Maybe?
-Try to adjust the device filter and the Keycodes, then it should work.
+With adjustments, yes!
+Try to adjust the device filter and the Keycodes, this way the majority of headsets wheels/buttons/whatever should work.
+This way you can make this work with any type of input, not only Headsets.
 
-This way you can make this work with any type of input.
+You could also change the commands it executes and do completely different things with it. :)
+
+
 
 ## Current Functionality:
 #### Note: All of this already works in the [python version](https://github.com/foelkdavid/hyperx-volume-wheel-fix/edit/main/README.md).
