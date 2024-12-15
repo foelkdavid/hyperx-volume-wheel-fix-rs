@@ -17,7 +17,9 @@ Otherwise just adjust the command inside the script.
 
 ## Will this work for other headsets?
 With adjustments, yes!
+
 Try to adjust the device filter and the Keycodes, this way the majority of headsets wheels/buttons/whatever should work.
+
 This way you can make this work with any type of input, not only Headsets.
 
 You could also change the commands it executes and do completely different things with it. :)
