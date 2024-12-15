@@ -21,6 +21,7 @@ With adjustments, yes!
 Try to adjust the device filter and the Keycodes, this way the majority of headsets wheels/buttons/whatever should work.
 
 This way you can make this work with any type of input, not only Headsets.
+</br>-> As long as there is a device for it somewhere under `/proc/bus/input/devices`.
 
 You could also change the commands it executes and do completely different things with it. :)
 
