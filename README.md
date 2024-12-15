@@ -1,9 +1,8 @@
-# 🎧 hyperx-volume-wheel-fix -> Rust version.
-**This is the newer, Rust version**
+# hyperx-volume-wheel-fix
+**This is the new version implemented in Rust**
+##  🎧 🎚️ 🔉 
 
-The main daemon works but it still lacks some functionality from the python version.
-
-Until then, use my [python version](https://github.com/foelkdavid/hyperx-volume-wheel-fix/edit/main/README.md).
+If you prefer a Python implementation look here -> [python version](https://github.com/foelkdavid/hyperx-volume-wheel-fix/edit/main/README.md).
 
 ## Whats the issue?
 The volume wheel of HyperX headsets like the "HyperX_Cloud_III_Wireless" wont work on linux.
