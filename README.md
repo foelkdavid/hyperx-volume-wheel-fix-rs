@@ -37,12 +37,13 @@ You could also change the commands it executes and do completely different thing
 
 
 ## Current Functionality:
-#### Note: All of this already works in the [python version](https://github.com/foelkdavid/hyperx-volume-wheel-fix/edit/main/README.md).
+#### ~~Note: All of this already works in the [python version](https://github.com/foelkdavid/hyperx-volume-wheel-fix/edit/main/README.md).~~
+#### ALL DONE!
 - [x] The volume wheel works and can successfully control the volume of audio sinks/etc.
-- [ ] Automatic detection of input/event path. -> no further config needed
-- [ ] Daemon runs in different modes (waiting and control)
+- [x] Automatic detection of input/event path. -> no further config needed
+- [x] Daemon runs in different modes (waiting and control)
     - this allows for hotplugging etc.
-- [ ] Desktop notifications based status of daemon:
+- [x] Desktop notifications based status of daemon:
   - Daemon is waiting for headset/adapter
   - Daemon connected to headset/adapter
   - Daemon disconnected from headset/adapter
