@@ -11,9 +11,18 @@ The volume wheel of HyperX headsets like the "HyperX_Cloud_III_Wireless" wont wo
 ## Whats the solution?
 A small daemon that checks /dev/input for the corresponding events and runs commands based on the input.
 
-## How do i use this?
-If you use wireplumber, just autostart this script with your System and you are good to go.
-Otherwise just adjust the command inside the script.
+
+## Installing:
+Just clone this repo, cd into it and run:
+```bash
+cargo build -r
+```
+you will find your binary under `target/release`.
+
+## Usage:
+If you use wireplumber, just autostart the binary with your System and you are good to go.
+
+Otherwise modify the `adjust_volume()` function inside the source code.
 
 ## Will this work for other headsets?
 With adjustments, yes!
